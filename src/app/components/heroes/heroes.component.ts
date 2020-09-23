@@ -11,8 +11,7 @@ export class HeroesComponent implements OnInit {
   heroes: Heroe[] = [];
 
   constructor( private heroesService: HeroesService,
-               private router: Router
-               ) {
+               private router: Router) {
 
   }
 
